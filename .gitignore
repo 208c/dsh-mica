@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Generated preview pages (scripts/preview.mjs). The PNG screenshots in the same
+# folder are tracked: they are the README's evidence; the HTML pages re-embed the
+# sampled wallpaper on every run, so they would bloat history and go stale.
+preview/*.html
+
+# OS / editor junk
+Thumbs.db
+.DS_Store
+*.log
